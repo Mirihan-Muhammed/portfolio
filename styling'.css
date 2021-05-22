@@ -1,0 +1,47 @@
+div.pic {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.info {
+    padding: 20px;
+    font-size: 27px;
+    font-family: Satisfy;
+  }
+h2{
+  margin-top: 30px;
+}
+  article {
+    margin-top:10px ;
+    margin-bottom: 20px;
+    float: left;
+    padding: 5px;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 150px; 
+    font-size: 23px;
+  }
+  .skill {
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    margin: 10px;
+    padding: 20px;
+    font-size: 25px;
+    background-image: url('pic.png');
+    width:250px ;
+    height: 250px;
+    transition: width 1s;
+    color: #f1f1f1;
+    border-style: solid;
+    border-color: black;
+    
+  }
+  ul:hover{
+    width: 320px;
+    height: 320px;
+    font-size: 27px;
+  }
+
