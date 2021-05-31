@@ -44,4 +44,42 @@ h2{
     height: 320px;
     font-size: 27px;
   }
+ @media only screen and (max-width: 600px){
+    ul {
+      margin: 5px;
+      padding: 10px;
+      font-size: 15px;
+      background-image: url('pic.png');
+      width:100px ;
+      height: 100px;
+      transition: width 1s;
+      color: #f1f1f1;
+      border-style: solid;
+      border-color: black;
+    }
+    ul:hover{
+      width: 120px;
+      height: 120px;
+      font-size: 17px;
+    }
+    article {
+      margin-top:5px ;
+      margin-bottom: 10px;
+      float: left;
+      padding: 2.5px;
+      width: 100%;
+      background-color: #f1f1f1;
+      height: 150px; 
+      font-size: 15px;
+    }
+    div.pic {
+      width: 150px;
+    }
+    div.info {
+      padding: 8px;
+      font-size: 15px;
+    }
+
+  }
+
 
